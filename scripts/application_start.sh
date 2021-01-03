@@ -1,7 +1,5 @@
 #!/bin/bash
 cd /home/ec2-user/app
 
-echo "test finish"
-
-#./node_modules/.bin/forever stopall
-#./node_modules/.bin/forever start /home/ec2-user/app/build/index.js
+./node_modules/forever/bin/forever stopall
+./node_modules/forever/bin/forever start /home/ec2-user/app/build/index.js
