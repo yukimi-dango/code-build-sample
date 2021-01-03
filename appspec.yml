@@ -2,8 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user
+    destination: /home/ec2-user/app
 hooks:
   ApplicationStart:
     - location: scripts/codedeploy_start.sh
       timeout: 300
+      runas: root
