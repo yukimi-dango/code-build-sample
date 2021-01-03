@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+            "source.fixAll.tslint": true
+        },
+        "typescript.preferences.quoteStyle": "single",
+        "git.ignoreLimitWarning": true
+    }
+}
