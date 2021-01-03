@@ -16,4 +16,3 @@ artifacts:
     - package-lock.json
     - 'scripts/**/*'
     - 'build/**/*'
-    - 'node_modules/**/*'
