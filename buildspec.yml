@@ -11,9 +11,4 @@ phases:
       - 'npm run build'
 artifacts:
   files:
-    - appspec.yml
-    - package.json
-    - package-lock.json
-    - 'scripts/**/*'
-    - 'build/**/*'
-    - 'node_modules/**/*'
+    - '**/*'
