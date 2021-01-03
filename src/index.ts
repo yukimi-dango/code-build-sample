@@ -4,7 +4,7 @@ const app = express();
 
 const router = express.Router();
 router.get('/hello', (_req, res) => {
-    res.send('hello');
+    res.send('hello update test');
 });
 
 app.use(router);
