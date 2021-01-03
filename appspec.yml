@@ -5,5 +5,5 @@ files:
     destination: /home/ec2-user/app
 hooks:
   ApplicationStart:
-    - location: scripts/codedeploy_start.sh
+    - location: /home/ec2-user/app/scripts/codedeploy_start.sh
       timeout: 300
