@@ -7,3 +7,4 @@ sudo yum install -y nodejs
 # Install forever module
 # https://www.npmjs.com/package/forever
 sudo npm install forever -g
+sudo npm install typescript -g
